@@ -27,6 +27,9 @@ gem 'haml-rails', '~> 0.9'
 gem 'bootstrap-sass', '~> 3.3.6'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+# Add FontAwesome
+# See more at: https://github.com/FortAwesome/font-awesome-sass
+gem 'font-awesome-sass', '~> 4.7.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
