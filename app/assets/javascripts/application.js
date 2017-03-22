@@ -13,6 +13,13 @@
 //= require jquery
 //= require jquery_ujs
 //= require wow.min
-
+//= require bootstrap
+//= require cable
+//= require classie
+//= require custom
+//= require elastic_grid.min
+//= require modernizr.custom
+//= require portfolio_slider
+//= require slick.min
 //= require turbolinks
 //= require_tree .
