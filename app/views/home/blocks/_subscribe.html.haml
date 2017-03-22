@@ -8,7 +8,7 @@
           %h2.wow.fadeInLeftBig Subscribe Us
           %p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
         / BEGAIN SUBSCRIVE FORM
-        = form_tag("/search", method: "get", class: 'subscribe_form') do
+        = form_tag('', method: 'post', class: 'subscribe_form') do
           .subscrive_group.wow.fadeInUp
             = text_field_tag 'email', nil, placeholder: 'Enter your email address',
                                            class: 'form-control subscribe_mail'

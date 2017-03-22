@@ -14,8 +14,8 @@
             / BEGAIN SINGLE TESTIMONIAL SLIDE#1
             %li
               .media.testi_media
-                %a.media-left.testi_img{:href => "#"}
-                  %img{:alt => "img", :src => "img/team-1.jpg"}/
+                = link_to('#', class: 'media-left testi_img') do
+                  = image_tag('team-1.jpg', alt: 'img')
                 .media-body
                   %h4.media-heading Alin Brown
                   %span CEO
@@ -24,8 +24,8 @@
             / BEGAIN SINGLE TESTIMONIAL SLIDE#2
             %li
               .media.testi_media
-                %a.media-left.testi_img{:href => "#"}
-                  %img{:alt => "img", :src => "img/team-1.jpg"}/
+                = link_to('#', class: 'media-left testi_img') do
+                  = image_tag('team-1.jpg', alt: 'img')
                 .media-body
                   %h4.media-heading Jon Smith
                   %span CEO
@@ -34,8 +34,8 @@
             / BEGAIN SINGLE TESTIMONIAL SLIDE#3
             %li
               .media.testi_media
-                %a.media-left.testi_img{:href => "#"}
-                  %img{:alt => "img", :src => "img/team-1.jpg"}/
+                = link_to('#', class: 'media-left testi_img') do
+                  = image_tag('team-1.jpg', alt: 'img')
                 .media-body
                   %h4.media-heading Jon Doe
                   %span Manager
