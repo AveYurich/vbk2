@@ -4,10 +4,11 @@
     .row
       .col-lg-6.col-md-6.col-sm-6
         .footer_left
-          -#%p
-          -#  Copyright © 2015
-          -#  = succeed "." do
-          -#    %a{:href => "http://www.wpfreeware.com"} WpFreeware
+          %p
+            Copyright © 2015
+            = succeed "." do
+              = link_to '#' do
+                Single Pro
       .col-lg-6.col-md-6.col-sm-6
         .footer_right
           %ul.social_nav
