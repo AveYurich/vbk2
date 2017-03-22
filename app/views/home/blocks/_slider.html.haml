@@ -1,0 +1,52 @@
+/ BEGIN SLIDER AREA
+.slider_area
+  / BEGIN SLIDER
+  #slides
+    %ul.slides-container
+      / THE FIRST SLIDE
+      %li
+        / FIRST SLIDE OVERLAY
+        .slider_overlay
+        / FIRST SLIDE MAIN IMAGE
+        = image_tag('full-slider/full-slide1.jpg', alt: 'img')
+        / FIRST SLIDE CAPTION
+        .slider_caption
+          %h2 Hi,We are Ultramodern Single pro
+          %p we are a group of experienced designers and developers
+          %a.slider_btn{:href => "#"} Who We are
+      / THE SECOND SLIDE
+      %li
+        / SECOND SLIDE OVERLAY
+        .slider_overlay
+        / SECOND SLIDE MAIN IMAGE
+        = image_tag('full-slider/full-slide1.jpg', alt: 'img')
+        / SECOND SLIDE CAPTION
+        .slider_caption
+          %h2 Hi,We are Ultramodern Single pro
+          %p we are a group of experienced designers and developers
+          %a.slider_btn{:href => "#"} Who We are
+      / THE THIRD SLIDE
+      %li
+        / THIRD SLIDE OVERLAY
+        .slider_overlay
+        / THIRD SLIDE MAIN IMAGE
+        = image_tag('full-slider/full-slide1.jpg', alt: 'img')
+        / THIRD SLIDE CAPTION
+        .slider_caption
+          %h2 we'll change your Idea of Design
+          %p we are a group of experienced designers and developers
+          %a.slider_btn{:href => "#"} Who We are
+    / BEGAIN SLIDER NAVIGATION
+    %nav.slides-navigation
+      / PREV IN THE SLIDE
+      = link_to '/item1', class: 'prev' do
+        %span.icon-wrap
+        %h3
+          %strong Prev
+      / NEXT IN THE SLIDE
+      = link_to '/item3', class: 'next' do
+        %span.icon-wrap
+        %h3
+          %strong Next
+  / END SLIDER
+/ END SLIDER AREA
