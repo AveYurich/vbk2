@@ -1,3 +1,7 @@
+:scss
+  .vbk-title {
+    color: white!important;
+  }
 %header#header
   / BEGIN MENU
   .menu_area
@@ -15,10 +19,10 @@
           / LOGO
           / TEXT BASED LOGO
           = link_to '#', class: 'navbar-brand' do
-            Single
-            %span Pro
+            .vbk-image
+              = image_tag 'logo.png'
+            %span.vbk-title "Комплексгруп"
           / IMG BASED LOGO
-          / <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
         #navbar.navbar-collapse.collapse
           %ul#top-menu.nav.navbar-nav.navbar-right.main_nav
             %li.active
