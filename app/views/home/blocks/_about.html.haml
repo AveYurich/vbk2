@@ -1,3 +1,8 @@
+:scss
+  .skills_area {
+    margin-top: 70px;
+  }
+
 / =========== BEGIN ABOUT SECTION ================
 %section#about
   .container
@@ -6,8 +11,9 @@
         .about_area
           / START ABOUT HEADING
           .heading
-            %h2.wow.fadeInLeftBig About Us
-            %p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+            %h2.wow.fadeInLeftBig О нас
+            %p Мы – строительно-производственная компания с 10-ти летним опытом строительства на Украине и за рубежом.
+            %p ТОВ ВБК «Комплексгруп» - быстро, качественно, надежно!
           / START ABOUT CONTENT
           .about_content
             .row
@@ -21,40 +27,20 @@
                         %h4.panel-title
                           %a{"data-parent" => "#accordion", "data-toggle" => "collapse", :href => "#collapseOne"}
                             %span.fa.fa-check-square-o>
-                            Creative  clean Design
+                            Сэндвич-панели
                       #collapseOne.panel-collapse.collapse.in
                         .panel-body
-                          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                          Сэндвич пане́ль (англ. sandwich — многослойный бутерброд) — строительный материал, имеющий трёхслойную структуру, состоящую из двух листов жёсткого материала (металл, ПВХ, ДВП, магнезитовая плита) и слоя утеплителя между ними. Как правило, сэндвич-панели используют при строительстве коммерческих и промышленных зданий (цеха, холодильники, котельни, производства, склады и т.д.)
                     / START SINGLE FEATURED ITEAM #2
                     .panel.panel-default.wow.fadeInLeft
                       .panel-heading
                         %h4.panel-title
                           %a{"data-parent" => "#accordion", "data-toggle" => "collapse", :href => "#collapseTwo"}
                             %span.fa.fa-check-square-o>
-                            100% responsive layout
+                            SIP-панели
                       #collapseTwo.panel-collapse.collapse
                         .panel-body
-                          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-                    / START SINGLE FEATURED ITEAM #3
-                    .panel.panel-default.wow.fadeInLeft
-                      .panel-heading
-                        %h4.panel-title
-                          %a{"data-parent" => "#accordion", "data-toggle" => "collapse", :href => "#collapseThree"}
-                            %span.fa.fa-check-square-o>
-                            Detail Documentation
-                      #collapseThree.panel-collapse.collapse
-                        .panel-body
-                          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                    / START SINGLE FEATURED ITEAM #4
-                    .panel.panel-default.wow.fadeInLeft
-                      .panel-heading
-                        %h4.panel-title
-                          %a{"data-parent" => "#accordion", "data-toggle" => "collapse", :href => "#collapseFour"}
-                            %span.fa.fa-check-square-o>
-                            24Hours Premium Support
-                      #collapseFour.panel-collapse.collapse
-                        .panel-body
-                          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages.
+                          SIP (англ., Structural Insulated Panel) – структурная изоляционная панель – это стройматериал, что складываться из двух плит ОСП по краям и слоя наполнителя между ними. ОСБ плиты и внутренний наполнитель ( пенополистирол или минеральная вата) склеиваются между собой с помощью полиуретанового клея под давлением в 18 тонн. SIP-панели используются для строительства жилых зданий или же маленьких пристроек к жилым зданиям (дома, гостиницы, бани, гаражи, балконы и т.д.)
               .col-lg-6.col-md-6.col-sm-12
                 .about_slider
                   / BEGAIN FEATURED SLIDER
@@ -62,23 +48,18 @@
                     / SINGLE SLIDE IN THE SLIDER
                     .single_iteam
                       = link_to '#' do
-                        = image_tag('feature_img1.jpg', alt: 'img')
+                        = image_tag('about_us_slider/1-min.jpg', alt: 'img')
                     / SINGLE SLIDE IN THE SLIDER
                     .single_iteam
                       = link_to '#' do
-                        = image_tag('feature_img1.jpg', alt: 'img')
+                        = image_tag('about_us_slider/2-min.jpg', alt: 'img')
                       / SINGLE SLIDE IN THE SLIDER
                     .single_iteam
                       = link_to '#' do
-                        = image_tag('feature_img1.jpg', alt: 'img')
-                      / SINGLE SLIDE IN THE SLIDER
+                        = image_tag('about_us_slider/3-min.jpg', alt: 'img')
                     .single_iteam
                       = link_to '#' do
-                        = image_tag('feature_img1.jpg', alt: 'img')
-                      / SINGLE SLIDE IN THE SLIDER
-                    .single_iteam
-                      = link_to '#' do
-                        = image_tag('feature_img1.jpg', alt: 'img')
+                        = image_tag('about_us_slider/4-min.jpeg', alt: 'img')
                     / END FEATURED SLIDER
             / BEGAIN SKILLS
             .row
