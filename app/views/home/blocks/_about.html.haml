@@ -1,3 +1,8 @@
+:scss
+  .skills_area {
+    margin-top: 70px;
+  }
+
 / =========== BEGIN ABOUT SECTION ================
 %section#about
   .container
@@ -36,26 +41,6 @@
                       #collapseTwo.panel-collapse.collapse
                         .panel-body
                           SIP (англ., Structural Insulated Panel) – структурная изоляционная панель – это стройматериал, что складываться из двух плит ОСП по краям и слоя наполнителя между ними. ОСБ плиты и внутренний наполнитель ( пенополистирол или минеральная вата) склеиваются между собой с помощью полиуретанового клея под давлением в 18 тонн. SIP-панели используются для строительства жилых зданий или же маленьких пристроек к жилым зданиям (дома, гостиницы, бани, гаражи, балконы и т.д.)
-                    / START SINGLE FEATURED ITEAM #3
-                    .panel.panel-default.wow.fadeInLeft
-                      .panel-heading
-                        %h4.panel-title
-                          %a{"data-parent" => "#accordion", "data-toggle" => "collapse", :href => "#collapseThree"}
-                            %span.fa.fa-check-square-o>
-                            Detail Documentation
-                      #collapseThree.panel-collapse.collapse
-                        .panel-body
-                          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                    / START SINGLE FEATURED ITEAM #4
-                    .panel.panel-default.wow.fadeInLeft
-                      .panel-heading
-                        %h4.panel-title
-                          %a{"data-parent" => "#accordion", "data-toggle" => "collapse", :href => "#collapseFour"}
-                            %span.fa.fa-check-square-o>
-                            24Hours Premium Support
-                      #collapseFour.panel-collapse.collapse
-                        .panel-body
-                          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages.
               .col-lg-6.col-md-6.col-sm-12
                 .about_slider
                   / BEGAIN FEATURED SLIDER
@@ -63,23 +48,18 @@
                     / SINGLE SLIDE IN THE SLIDER
                     .single_iteam
                       = link_to '#' do
-                        = image_tag('feature_img1.jpg', alt: 'img')
+                        = image_tag('about_us_slider/1-min.jpg', alt: 'img')
                     / SINGLE SLIDE IN THE SLIDER
                     .single_iteam
                       = link_to '#' do
-                        = image_tag('feature_img1.jpg', alt: 'img')
+                        = image_tag('about_us_slider/2-min.jpg', alt: 'img')
                       / SINGLE SLIDE IN THE SLIDER
                     .single_iteam
                       = link_to '#' do
-                        = image_tag('feature_img1.jpg', alt: 'img')
-                      / SINGLE SLIDE IN THE SLIDER
+                        = image_tag('about_us_slider/3-min.jpg', alt: 'img')
                     .single_iteam
                       = link_to '#' do
-                        = image_tag('feature_img1.jpg', alt: 'img')
-                      / SINGLE SLIDE IN THE SLIDER
-                    .single_iteam
-                      = link_to '#' do
-                        = image_tag('feature_img1.jpg', alt: 'img')
+                        = image_tag('about_us_slider/4-min.jpeg', alt: 'img')
                     / END FEATURED SLIDER
             / BEGAIN SKILLS
             .row
